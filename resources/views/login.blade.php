@@ -48,12 +48,12 @@ button {
 }
 </style>
 
-        <form method="post" action="/php/login.php" class="formaccesso">
+        <form method="get" action="/home" class="formaccesso">
             <h1>Login</h1>
-            <input type="text" id="username" placeholder="Username" name="username" required>
-            <input type="password" id="password" placeholder="Password" name="password" required>
+            <input type="text" id="username" placeholder="Username" name="username" >
+            <input type="password" id="password" placeholder="Password" name="password">
             <button type="submit" name="login">Accedi</button>
-            <button name="login"><a href ="registrazione.blade.php"></a>Registrati</button>
+            <a href ="/registrazione"><button name="login" type="button">Registrati</button></a>
             </form>
             
     </body>

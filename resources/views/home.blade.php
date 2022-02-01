@@ -63,7 +63,7 @@
             <output type="text" id="Cognome" placeholder="Cognome" name="Cognome" required>
                 <output type="email" id="email" placeholder="Email" name="email" required>
                     <output type="tel" id="n_cellulare" placeholder="Numero cellulare" name="numero cellulare" required>
-                        <button type="button" name="home"><a href="./login.blade.php">Disconnettiti</a></button>
+                    <a href="/login"><button type="button" name="home">Disconnettiti</button></a>
     </div>
 </body>
 

@@ -48,7 +48,7 @@ button {
 	text-transform: uppercase;
 }
 </style>
-        <form method="post" action="/php/register.php" class="formaccesso">
+        <form method="get" action="/login" class="formaccesso">
             <h1>Registrazione</h1>
             <input type="text" id="Nome" placeholder="Nome" name="Nome" maxlength="50" required>
             <input type="text" id="Cognome" placeholder="Cognome" name="Cognome" required>
